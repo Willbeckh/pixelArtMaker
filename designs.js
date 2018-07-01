@@ -10,7 +10,7 @@ $ ('#sizePicker').submit(function (event) {
     height = $('#inputHeight').val();
     width = $('#inputWeight').val();
     makeGrid(height, width);
-    console.log('Height: ' + height + ' and width: ' + width);
+    // console.log('Height: ' + height + ' and width: ' + width);
 })
 
 function makeGrid(x, y) {
